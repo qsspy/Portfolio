@@ -282,6 +282,14 @@ a:hover > .contact-icon {
     filter: invert(1);
 }
 
+.font-weight-bold {
+    font-weight: bold;
+}
+
+label {
+    color: floralwhite;
+}
+
 @media (max-width: 576px) {
 
 }

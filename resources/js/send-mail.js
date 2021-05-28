@@ -45,7 +45,7 @@ btn.addEventListener('click', (e) => {
             btn.disabled = false
             loading.classList.add("d-none")
             Swal.fire({
-                title : 'Email has been sent. Thanks :D!',
+                title : 'Wiadomość wysłana, dzięki :D!',
                 icon : 'success'
             })
         })
