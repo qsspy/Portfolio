@@ -1,8 +1,13 @@
 body {
+    width: 100%;
     overflow: overlay;
     overflow-x: hidden;
     background-image: url('../images/y-so-serious.png');
     background-size: 500px 500px;
+}
+
+html  {
+    overflow-x: hidden;
 }
 
 header {
@@ -17,7 +22,7 @@ header {
     z-index: 99;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +40,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 10px 0;;
+    margin: 20px 0;;
 }
 
 #nav-wrapper.sticky > nav a{
@@ -292,13 +297,13 @@ label {
 
 @media (max-width: 576px) {
 
+    
+
 }
 
 @media (max-width: 768px) {
-
-    html {
-        font-size: 12px;
-    }
+    
+    
 
     #freelancer-name {
         font-size: 2.5rem;
@@ -307,6 +312,8 @@ label {
 }
 
 @media (max-width: 992px) {
+
+    
 
     #about-me-container, .project-container {
         flex-direction: column;
